@@ -83,7 +83,7 @@ nav ul li a .fa-facebook {
   right: 20px;
 }
 .container {
-  display: inline-flex;
+  display: flex;
 }
 .container .icon {
   display: flex;
@@ -94,7 +94,6 @@ nav ul li a .fa-facebook {
   z-index: 100;
   margin: 0 20px;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  left: 995px;
 }
 .container .icon span {
   position: relative;
@@ -106,7 +105,7 @@ nav ul li a .fa-facebook {
   border-radius: 50%;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   z-index: 100;
-
+  left: 500%;
 }
 .container .icon span i {
   font-size: 25px;
