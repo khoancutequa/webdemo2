@@ -4,7 +4,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #f0f8ff;
-
 }
 header {
   background-color: #333;
@@ -106,12 +105,11 @@ nav ul li a .fa-facebook {
   border-radius: 50%;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   z-index: 100;
-  left: 970px;
+  left: 900px;
 }
 .container .icon span i {
   font-size: 25px;
   line-height: 60px;
-
 }
 .container .icon:hover span i {
   color: #d2dae2;
@@ -128,7 +126,7 @@ nav ul li a .fa-facebook {
   opacity: 0;
   pointer-events: none;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  left: 940px;
+  left: 870px;
 }
 .container .icon:hover .tooltip {
   top: -70px;
